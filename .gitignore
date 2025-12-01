@@ -1,0 +1,36 @@
+# Streamlit secrets - NEVER commit this file!
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Earth Engine
+.ee_credentials
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PDFs and images (already in repo)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter
+.ipynb_checkpoints
